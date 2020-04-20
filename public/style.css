@@ -1,0 +1,22 @@
+label,
+input {
+  display: inline-block;
+  width: 120px;
+  box-sizing: border-box;
+}
+#result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-start;
+}
+#result .item {
+  max-width: 350px;
+  margin: 10px;
+  flex: 0 0 23%;
+  padding: 10px;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2),
+    0 2px 4px -1px rgba(0, 0, 0, 0.1);
+}
